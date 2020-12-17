@@ -6,6 +6,7 @@
     animation-delay: 3s;
     animation-duration: 25s;
     animation-iteration-count:infinite;
+    margin-bottom:5%;
 }
 /*Animacion de imagenes*/
 @keyframes imagenfondo{
