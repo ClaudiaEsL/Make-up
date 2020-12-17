@@ -1,0 +1,31 @@
+.contenedor-whats{
+    width: 100%;
+}
+.icono-whatsapp{
+    width: 80px;
+    padding: 1%;
+    position: fixed;
+    bottom:4%;
+    right:3%;
+    z-index:100;
+    background-color:rgb(94, 94, 94);
+    border-radius: 50%;
+    box-shadow: 0px 2px 5px 0px rgb(71, 71, 71);
+}
+.icono-whatsapp:hover{
+    background-color:rgb(238, 238, 238);
+    transition: 1s;
+}
+.icono-whatsapp img{
+    width:100%;
+}
+/*Media Query Para una vista movil*/
+@media screen and (max-width:600px){
+    .icono-whatsapp{
+        width:16%;
+    }
+    .icono-whatsapp{
+        right:5%;
+        bottom:5%;
+    }
+}

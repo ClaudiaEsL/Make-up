@@ -1,0 +1,47 @@
+.templateux-footer .container .row{
+    display: flex;
+    justify-content: center;
+}
+.block-footer-widget{
+    text-align: center;
+    color:white;
+}
+.templateux-footer{
+    padding:3%!important;
+    background-color: rgb(0, 0, 0)!important;
+}
+.buttonUp {
+	background-color:rgb(255, 255, 255);
+    color:rgb(165, 123, 124);
+    font-size: 25px;
+    display: flex;
+    width: 70px;
+    height:70px;
+    box-shadow: 0px 0px 3px 0px rgb(0, 0, 0);
+    justify-content: center;
+    border-radius: 50%;
+}
+.buttonUp:hover{
+    background-color: rgb(241, 241, 241);
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.747);
+}
+.buttonUp svg{
+    border-radius: 50%;
+}
+.contenedor-boton{
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: -5%;
+}
+/*Media Query Para una vista movil*/
+@media screen and (max-width:600px){
+    .buttonUp svg{
+        width: 50px;
+        height:50px;
+    }
+    .contenedor-boton{
+        margin-top: -12%!important;
+    }
+}

@@ -1,0 +1,17 @@
+.titulo-formulario{
+    padding:1% 1% 5% 1%;
+}
+.mapa iframe{
+    width:600px;
+    height:450px;
+}
+
+/*Media Query Para una vista movil*/
+@media screen and (max-width:600px){
+    .map{
+        width: 100% !important;
+    }
+    .mapa iframe{
+        width:100%!important;
+    }
+}
