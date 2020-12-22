@@ -1,14 +1,13 @@
 /*Animaciones*/
 @keyframes animacion{
-    0%{background-color: rgb(160, 46, 116);}
-    20%{background-color:  rgb(119, 41, 89);}
-    40%{background-color:  rgb(87, 25, 64)}
-    60%{background-color: rgb(0, 0, 0);}
-    80%{background-color:  rgb(95, 29, 71)}
-    100%{background-color:  rgb(128, 30, 90);}
+    0%{background-color:rgb(128, 4, 80);}
+    25%{background-color:rgba(128, 4, 80, 0.911);}
+    50%{background-color:rgba(128, 4, 80, 0.856);}
+    75%{background-color:rgba(128, 4, 80, 0.699);}
+    100%{background-color:rgba(128, 4, 80, 0.596);}
 }
 .fondo-count{
-    background-color:rgb(160, 46, 116);
+    background-color:rgb(128, 4, 80);
     animation-name: animacion;
     animation-duration: 10s;
     animation-delay: 2s;
@@ -16,6 +15,12 @@
 }
 .section-servicios{
     margin-top: 30%;
+}
+/*Contendor de cursos*/
+.cont-cursos{
+    background-color: rgb(211, 212, 211);
+    margin-top: 3%;
+    margin-bottom: 3%;
 }
 /*Boton ver-mas*/
 .content-btn{
@@ -26,6 +31,7 @@
     background-color: rgb(0, 0, 0);
     margin-top:2%;
     transition-duration: 3s;
+    margin-bottom: 2%;
 }
 .boton-see-more:hover{
     background-color: rgb(141, 40, 99);
