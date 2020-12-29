@@ -55,6 +55,7 @@ h6{
 .menu-color li a:hover{
     color:rgb(195, 42, 201)!important;
 }
+
 /*Media Query Para una vista mediana*/
 @media screen and (max-width:814px){
     .frase-index{
@@ -63,6 +64,13 @@ h6{
 }
 /*Media Query Para una vista movil*/
 @media screen and (max-width:763px){
+    .seccion-informacion{
+        margin-top: 1%;
+    }
+    /*menu*/
+    .menu-color{
+        position: relative;
+    }
     .frase-index{
         padding-top: 20%;
     }
