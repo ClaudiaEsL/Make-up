@@ -5,10 +5,13 @@
 .titulo-about{
     font-size:30px;
     font-family: 'Dancing Script', cursive;
+    padding-left:3%;
 }
 .iconos{
     width:50px;
 }
 .lead{
     font-family: 'Source Serif Pro', serif;
+    padding: 3%;
 }
+

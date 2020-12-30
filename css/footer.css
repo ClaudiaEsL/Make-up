@@ -8,13 +8,14 @@
 }
 .templateux-footer{
     background-color: black;
-    position: absolute;
+    position:absolute;
     bottom: 0;
     width: 100%;
     padding:3%!important;
     background-color: rgb(0, 0, 0)!important;
 }
 .buttonUp {
+    margin-top: 20%;
 	background-color:rgb(255, 255, 255);
     color:rgb(165, 123, 124);
     font-size: 20px;
