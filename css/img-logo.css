@@ -1,8 +1,9 @@
 .img-logo{
-    width:120%;
+    width:80%;
+    padding-bottom: 5px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:761px){
     .img-logo{
-        width:250%;
+        width:160%;
     }
 }
