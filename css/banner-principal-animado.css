@@ -8,6 +8,10 @@
     animation-duration: 25s;
     animation-iteration-count:infinite;
     margin-bottom:5%;
+
+}
+.contenedor{
+    padding-bottom: 20%;
 }
 .frase-index{
     padding-top: 10%;
@@ -16,26 +20,26 @@
 /*Animacion de imagenes*/
 @keyframes imagenfondo{
     0%{background-image: url(../images/fondos/1.png);}
-    25%{background-image: url(../images/fondos/2.png);}
+    25%{background-image: url(../images/fondos/1.png);}
     50%{background-image: url(../images/fondos/1.png);}
     75%{background-image: url(../images/fondos/2.png);}
-    100%{background-image: url(../images/fondos/1.png);}
+    100%{background-image: url(../images/fondos/2.png);}
 }
 /*Animacion de imagenes pequeñas vista movil*/
 @keyframes imagenfondopequeño{
     0%{background-image: url(../images/fondo-pequeño/1.png);}
-    25%{background-image: url(../images/fondo-pequeño/2.png);}
+    25%{background-image: url(../images/fondo-pequeño/1.png);}
     50%{background-image: url(../images/fondo-pequeño/1.png);}
     75%{background-image: url(../images/fondo-pequeño/2.png);}
-    100%{background-image: url(../images/fondo-pequeño/1.png);}
+    100%{background-image: url(../images/fondo-pequeño/2.png);}
 }
 /*Animacion de imagenes vista mediana*/
 @keyframes imagenfondomediano{
     0%{background-image: url(../images/fondo-mediano/1.png);}
-    25%{background-image: url(../images/fondo-mediano/2.png);}
+    25%{background-image: url(../images/fondo-mediano/1.png);}
     50%{background-image: url(../images/fondo-mediano/1.png);}
     75%{background-image: url(../images/fondo-mediano/2.png);}
-    100%{background-image: url(../images/fondo-mediano/1.png);}
+    100%{background-image: url(../images/fondo-mediano/2.png);}
 }
 /*Media Query Para una vista mediana*/
 @media screen and (max-width:1181px){
@@ -46,6 +50,9 @@
     }
     .frase-index{
         padding-top: 30%;
+    }
+    .contenedor{
+        padding-bottom: 40%;
     }
 
 }
@@ -58,5 +65,8 @@
     }
     .frase-index{
         padding-top: 10%;
+    }
+    .contenedor{
+        padding-bottom: 51%;
     }
 }
