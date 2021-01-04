@@ -76,7 +76,6 @@ h6{
 }
 /*Media Query Para una vista movil*/
 @media screen and (max-width:763px){
-  
     .contenedor{
         padding-bottom: 50%;
     }
