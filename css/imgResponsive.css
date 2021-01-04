@@ -76,14 +76,17 @@ h6{
 }
 /*Media Query Para una vista movil*/
 @media screen and (max-width:763px){
+  
     .contenedor{
-        padding-bottom: 30%;
+        padding-bottom: 50%;
     }
     .seccion-informacion{
         margin-top: 1%;
     }
     /*menu*/
-    .menu-color{
+    .menu-color{  .contenedor{
+        padding-bottom: 30%;
+    }
         position: relative;
     }
     /*letras al principio*/
