@@ -1,34 +1,62 @@
 /*Banner principal*/
 .banner-fondo{
-    background-image: url(../images/slider-banner/Slider-1.jpg);
+    background-image: url(../images/fondos/1.png);
     background-size: cover;
+    background-repeat: no-repeat;
     animation-name:imagenfondo!important;
-    animation-delay: 3s;
+    animation-delay: 0.5s;
     animation-duration: 25s;
     animation-iteration-count:infinite;
     margin-bottom:5%;
 }
+.frase-index{
+    padding-top: 10%;
+}
+
 /*Animacion de imagenes*/
 @keyframes imagenfondo{
-    0%{background-image: url(../images/slider-banner/Slider-1.jpg);}
-    25%{background-image: url(../images/slider-banner/Slider-2.jpg);}
-    50%{background-image: url(../images/slider-banner/Slider-1.jpg);}
-    75%{background-image: url(../images/slider-banner/Slider-2.jpg);}
-    100%{background-image: url(../images/slider-banner/Slider-1.jpg);}
+    0%{background-image: url(../images/fondos/1.png);}
+    25%{background-image: url(../images/fondos/2.png);}
+    50%{background-image: url(../images/fondos/1.png);}
+    75%{background-image: url(../images/fondos/2.png);}
+    100%{background-image: url(../images/fondos/1.png);}
 }
-/*Animacion de imagenes pequeñas*/
+/*Animacion de imagenes pequeñas vista movil*/
 @keyframes imagenfondopequeño{
-    0%{background-image: url(../images/slider-banner-pequeño/Slider-1.jpg);}
-    25%{background-image: url(../images/slider-banner-pequeño/Slider-2.jpg);}
-    50%{background-image: url(../images/slider-banner-pequeño/Slider-1.jpg);}
-    75%{background-image: url(../images/slider-banner-pequeño/Slider-2.jpg);}
-    100%{background-image: url(../images/slider-banner-pequeño/Slider-1.jpg);}
+    0%{background-image: url(../images/fondo-pequeño/1.png);}
+    25%{background-image: url(../images/fondo-pequeño/2.png);}
+    50%{background-image: url(../images/fondo-pequeño/1.png);}
+    75%{background-image: url(../images/fondo-pequeño/2.png);}
+    100%{background-image: url(../images/fondo-pequeño/1.png);}
 }
-/*Media Query Para una vista movil*/
-@media screen and (max-width:600px){
+/*Animacion de imagenes vista mediana*/
+@keyframes imagenfondomediano{
+    0%{background-image: url(../images/fondo-mediano/1.png);}
+    25%{background-image: url(../images/fondo-mediano/2.png);}
+    50%{background-image: url(../images/fondo-mediano/1.png);}
+    75%{background-image: url(../images/fondo-mediano/2.png);}
+    100%{background-image: url(../images/fondo-mediano/1.png);}
+}
+/*Media Query Para una vista mediana*/
+@media screen and (max-width:1181px){
     /*Banner principal*/
     .banner-fondo{
-        background-image: url(../images/slider-banner-pequeño/Slider-1.jpg);
+        background-image: url(../images/fondo-mediano/1.png);
+        animation-name:imagenfondomediano!important;
+    }
+    .frase-index{
+        padding-top: 30%;
+    }
+
+}
+/*Media Query Para una vista movil*/
+@media screen and (max-width:750px){
+    /*Banner principal*/
+    .banner-fondo{
+        background-image: url(../images/fondo-pequeño/1.png);
         animation-name:imagenfondopequeño!important;
+    }
+    .frase-index{
+        padding-top: 10%;
     }
 }
