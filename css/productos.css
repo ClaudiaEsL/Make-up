@@ -5,3 +5,6 @@
     display:flex;
     justify-content: center;
 }
+.item a img:hover{
+    opacity: 0.8 !important;
+}

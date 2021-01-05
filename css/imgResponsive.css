@@ -77,10 +77,11 @@ h6{
         margin-top: 1%;
     }
     /*menu*/
-    .menu-color{  .contenedor{
-        padding-bottom: 30%;
-    }
+    .menu-color{  
         position: relative;
+    }
+    .contenedor{
+        padding-bottom: 30%;
     }
     /*letras al principio*/
     .texto-principal{
