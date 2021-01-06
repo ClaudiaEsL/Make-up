@@ -1,10 +1,16 @@
-.img-product{
-    width:100%!important;
-}
 .btn-img{
     display:flex;
     justify-content: center;
 }
 .item a img:hover{
-    opacity: 0.8 !important;
+    opacity: 0.5 !important;
+    background-image: url(../images/galeria/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.item a img{
+    width: 50%!important;
+}
+.infor-product{
+    margin:4% 0 0 0;
 }
